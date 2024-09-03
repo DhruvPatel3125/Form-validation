@@ -1,0 +1,50 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:url(/login.jpg);
+
+}
+
+form{
+    width: 700px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    margin-top: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    backdrop-filter: blur(55px);
+   
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input{
+    padding-right:10px;
+}
+
+#name,#email,#phone{
+    width: 550px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid  #ccc;
+    background-color: #ccc;
+    border-radius: 15px;
+}
+
+button[type="submit"]{
+    width: 100px;
+    height: 30px;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

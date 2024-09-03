@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formvalidation.css">
+</head>
+<body>
+    <form action="/amezon1.html" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="name" name="name" id="name" placeholder="Enteer Your name" > <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email" ><br>
+        <label for="phone">phone:</label> 
+        <input type="tel" name="phone" id="phone" placeholder="Enteer your phonenumber" ><br>
+
+        <button type="submit">submit</button>
+
+        <script src="formvalidation.js"></script>
+    </form>
+</body>
+</html>
